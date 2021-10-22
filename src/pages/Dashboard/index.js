@@ -16,10 +16,12 @@ function Dashboard() {
           description={card.description}
           user={card.user}
           picture={card.user.picture}
+          value={card.value}
           />
         ))
       }
       </ul>
+      
     </div>
   )
 }
